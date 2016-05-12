@@ -1,3 +1,24 @@
+@font-face {
+    font-family: Vazir;
+    src: url('../fonts/Vazir.eot');
+    src: url('../fonts/Vazir.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Vazir.woff') format('woff'),
+    url('../fonts/Vazir.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Vazir;
+    src: url('../fonts/Vazir-Bold.eot');
+    src: url('../fonts/Vazir-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Vazir-Bold.woff') format('woff'),
+    url('../fonts/Vazir-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+*{
+    font-family: Vazir;
+}
 
 h1{
     float: left;
@@ -6,13 +27,37 @@ h1 a{
     text-align: left;
 }
 
+input.button{
+    font-family: Vazir;
+}
+Input.text, select, textarea{
+    font-family: Vazir;
+}
+
 #wrap{
     border: 0px;
     text-align: right;
 }
 
+
+ul#admin_menu li{
+    direction: rtl;
+}
+
 #new_url{
     direction: rtl;
+}
+
+div.share{
+    float: right;
+}
+
+#shareboxes{
+    direction: rtl;
+}
+
+#add-url{
+    direction: ltr;
 }
 
 table.tblSorter{
@@ -22,7 +67,17 @@ table.tblSorter{
 table.tblSorter thead tr .tablesorter-header{
     background-position: center left;
 }
+div, p, td{
+    font-family: Vazir;
+}
+
 #filter_form{
     float: right;
     text-align: right;
+}
+
+#footer p{
+    border: 0px;
+    direction: rtl;
+    font-family: Vazir;
 }
