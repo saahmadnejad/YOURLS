@@ -126,6 +126,10 @@ function yourls_html_head( $context = 'index', $title = '' ) {
 		var zclipurl = '<?php yourls_site_url(); ?>/js/ZeroClipboard.swf';
 	//]]>
 	</script>
+	<?php if( defined( 'RTL' ) && RTL == true ){?>
+	<link rel="stylesheet" href="<?php yourls_site_url(); ?>/css/rtl.css" type="text/css" media="screen" />
+	<?php
+	}?>
 	<?php yourls_do_action( 'html_head', $context ); ?>
 </head>
 <body class="<?php echo $context; ?> <?php echo $bodyclass; ?>">

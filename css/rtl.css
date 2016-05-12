@@ -1,0 +1,28 @@
+
+h1{
+    float: left;
+}
+h1 a{
+    text-align: left;
+}
+
+#wrap{
+    border: 0px;
+    text-align: right;
+}
+
+#new_url{
+    direction: rtl;
+}
+
+table.tblSorter{
+    direction: rtl;
+    text-align: right;
+}
+table.tblSorter thead tr .tablesorter-header{
+    background-position: center left;
+}
+#filter_form{
+    float: right;
+    text-align: right;
+}
