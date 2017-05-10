@@ -213,7 +213,7 @@ function yourls_create_sql_tables() {
 	$create_tables = array();
 	$create_tables[YOURLS_DB_TABLE_URL] =
 		'CREATE TABLE IF NOT EXISTS `'.YOURLS_DB_TABLE_URL.'` ('.
-		'`keyword` varchar(200) BINARY NOT NULL,'.
+		'`keyword` varchar(150) BINARY NOT NULL,'.
 		'`url` text BINARY NOT NULL,'.
 		'`title` text CHARACTER SET utf8,'.
 		'`timestamp` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,'.
