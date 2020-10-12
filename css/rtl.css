@@ -42,6 +42,12 @@ Input.text, select, textarea{
 
 ul#admin_menu li{
     direction: rtl;
+    float: right;
+    margin-right: 10px;
+}
+
+ul#admin_menu li:hover{
+    list-style-type: none;
 }
 
 #new_url{
